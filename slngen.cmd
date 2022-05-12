@@ -1,6 +1,6 @@
 SET ROOT= %~dp0
 SET INIT = %ROOT%init.cmd
-SET SLNGEN =  %ROOT%\.corext\gen\InPath\slngen.cmd
+SET SLNGEN =  %ROOT%.corext\gen\InPath\slngen.cmd
 
 @REM -- call the init.cmd to restore the packages.
 @call INIT
